@@ -1,0 +1,9 @@
+uuid: 22551f43-a549-490f-8c85-3aed810e9199
+langcode: en
+status: true
+dependencies: {  }
+name: 'الخدمة المطلوبة'
+vid: alkhdmt_almtlwbt
+description: 'الخدمة المطلوبة'
+hierarchy: 0
+weight: 0
