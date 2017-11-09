@@ -1,0 +1,24 @@
+uuid: 41fe3403-6b92-445e-b186-ffb2bc22af2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - drupal8_parallax_theme
+id: views_block__who_s_online_who_s_online_block
+theme: drupal8_parallax_theme
+region: topwidget_first
+weight: 0
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

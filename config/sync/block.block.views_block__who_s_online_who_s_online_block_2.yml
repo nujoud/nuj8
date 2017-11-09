@@ -1,0 +1,24 @@
+uuid: 0076ffab-7c5e-415b-9361-9cad238fc1e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - drupal8_parallax_theme
+id: views_block__who_s_online_who_s_online_block_2
+theme: drupal8_parallax_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
