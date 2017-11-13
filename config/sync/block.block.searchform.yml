@@ -8,7 +8,7 @@ dependencies:
     - drupal8_parallax_theme
 id: searchform
 theme: drupal8_parallax_theme
-region: topwidget_second
+region: primary_menu
 weight: 0
 provider: null
 plugin: search_form_block

@@ -1,0 +1,24 @@
+uuid: 32b510ec-c1e9-496c-b20d-f123c9990528
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - drupal8_parallax_theme
+id: useraccountmenu
+theme: drupal8_parallax_theme
+region: footer_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
