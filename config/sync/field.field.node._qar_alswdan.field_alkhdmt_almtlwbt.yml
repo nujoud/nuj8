@@ -1,0 +1,29 @@
+uuid: 36a37675-9f93-48d8-ae03-211cb9241f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alkhdmt_almtlwbt
+    - node.type._qar_alswdan
+    - taxonomy.vocabulary.alkhdmt_almtlwbt
+id: node._qar_alswdan.field_alkhdmt_almtlwbt
+field_name: field_alkhdmt_almtlwbt
+entity_type: node
+bundle: _qar_alswdan
+label: 'الخدمة المطلوبة'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      alkhdmt_almtlwbt: alkhdmt_almtlwbt
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 37389939-40f5-4d63-a382-8ac42e6e8040
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_alkhdmt_almtlwbt
+field_name: field_alkhdmt_almtlwbt
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

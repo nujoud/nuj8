@@ -1,0 +1,22 @@
+uuid: 771eda54-f426-4a83-9f2a-a14b6bf13161
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type._qar_alswdan
+id: node._qar_alswdan.promote
+field_name: promote
+entity_type: node
+bundle: _qar_alswdan
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

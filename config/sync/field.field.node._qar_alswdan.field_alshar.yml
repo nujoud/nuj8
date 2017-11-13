@@ -1,0 +1,19 @@
+uuid: 623b638e-1a2c-4514-a34b-5f595c397b76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alshar
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_alshar
+field_name: field_alshar
+entity_type: node
+bundle: _qar_alswdan
+label: الشارع
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

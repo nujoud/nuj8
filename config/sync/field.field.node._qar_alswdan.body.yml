@@ -1,0 +1,22 @@
+uuid: 5d67b4a0-e96d-4bfa-8aa2-bd65e8eb34b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type._qar_alswdan
+  module:
+    - text
+id: node._qar_alswdan.body
+field_name: body
+entity_type: node
+bundle: _qar_alswdan
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

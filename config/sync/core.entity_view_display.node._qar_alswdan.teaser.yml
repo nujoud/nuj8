@@ -1,0 +1,34 @@
+uuid: 32beab52-2bd6-49e8-bfbd-56ced49c72e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node._qar_alswdan.body
+    - node.type._qar_alswdan
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node._qar_alswdan.teaser
+targetEntityType: node
+bundle: _qar_alswdan
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

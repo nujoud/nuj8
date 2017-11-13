@@ -1,0 +1,9 @@
+uuid: 9f08066c-ff5b-48fd-8b0d-6baa77386bb0
+langcode: en
+status: true
+dependencies: {  }
+name: 'نوع العقار'
+vid: nw_al_qar
+description: 'نوع العقار'
+hierarchy: 0
+weight: 0

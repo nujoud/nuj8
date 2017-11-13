@@ -1,0 +1,9 @@
+uuid: 9d8cfbef-a515-42aa-84ab-c4a65f176959
+langcode: en
+status: true
+dependencies: {  }
+name: الولاية/المحافظة
+vid: alwlayt_almhafzt
+description: الولاية/المحافظة
+hierarchy: 0
+weight: 0

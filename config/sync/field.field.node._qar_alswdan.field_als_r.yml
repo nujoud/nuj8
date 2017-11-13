@@ -1,0 +1,23 @@
+uuid: 79774b01-c002-4de6-b3ea-77a2e52bd73c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_als_r
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_als_r
+field_name: field_als_r
+entity_type: node
+bundle: _qar_alswdan
+label: السعر
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: جنيه
+field_type: integer

@@ -1,0 +1,9 @@
+uuid: 80490dd5-e28f-4b35-b221-43f9964152ff
+langcode: en
+status: true
+dependencies: {  }
+name: 'ولاية الخرطوم'
+vid: wlayt_alkhrtwm
+description: 'ولاية الخرطوم'
+hierarchy: 0
+weight: 0
