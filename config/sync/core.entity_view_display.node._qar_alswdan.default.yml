@@ -16,7 +16,6 @@ dependencies:
     - field.field.node._qar_alswdan.field_rqm_almwbayl
     - field.field.node._qar_alswdan.field_rqm_alqt_t
     - field.field.node._qar_alswdan.field_tags
-    - image.style.flexslider_full
     - node.type._qar_alswdan
   module:
     - field_layout
@@ -38,7 +37,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     region: top
@@ -99,10 +98,10 @@ content:
     type: list_default
     region: middle
   field_image:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
-      image_style: flexslider_full
+      image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
