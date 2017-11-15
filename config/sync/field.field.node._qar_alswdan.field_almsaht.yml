@@ -1,0 +1,23 @@
+uuid: e0126beb-f478-4402-b3b3-32eda511ea18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_almsaht
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_almsaht
+field_name: field_almsaht
+entity_type: node
+bundle: _qar_alswdan
+label: المساحة
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: م2
+field_type: integer

@@ -1,0 +1,26 @@
+uuid: bc2a12b7-c328-4e1a-9f82-47bd97f4e51a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rqm_almwbayl
+    - node.type._qar_alswdan
+  module:
+    - telephone
+    - telephone_validation
+third_party_settings:
+  telephone_validation:
+    format: 0
+    country: {  }
+id: node._qar_alswdan.field_rqm_almwbayl
+field_name: field_rqm_almwbayl
+entity_type: node
+bundle: _qar_alswdan
+label: 'رقم الموبايل'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

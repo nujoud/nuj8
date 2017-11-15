@@ -1,0 +1,19 @@
+uuid: 01a42677-9530-47a4-be0d-5e3e560b65bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - telephone
+id: node.field_rqm_almwbayl
+field_name: field_rqm_almwbayl
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

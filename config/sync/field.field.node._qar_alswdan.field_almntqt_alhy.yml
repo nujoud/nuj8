@@ -1,0 +1,19 @@
+uuid: f2b39260-d903-46c4-9220-ea89ef2face0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_almntqt_alhy
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_almntqt_alhy
+field_name: field_almntqt_alhy
+entity_type: node
+bundle: _qar_alswdan
+label: المنطقة/الحي
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

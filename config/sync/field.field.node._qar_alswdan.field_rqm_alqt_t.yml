@@ -1,0 +1,23 @@
+uuid: cdf7adb7-eed8-4bf7-bd99-0853fcf2f254
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rqm_alqt_t
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_rqm_alqt_t
+field_name: field_rqm_alqt_t
+entity_type: node
+bundle: _qar_alswdan
+label: 'رقم القطعة'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

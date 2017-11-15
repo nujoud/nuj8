@@ -1,0 +1,21 @@
+uuid: 0c29d2d7-6ad9-4c6d-9c09-2c4e8421b75c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_almntqt_alhy
+field_name: field_almntqt_alhy
+entity_type: node
+type: string
+settings:
+  max_length: 25
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

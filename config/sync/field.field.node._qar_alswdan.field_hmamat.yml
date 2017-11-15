@@ -1,0 +1,21 @@
+uuid: d19aa3e4-ba25-46b7-85f3-1635c9740cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hmamat
+    - node.type._qar_alswdan
+  module:
+    - options
+id: node._qar_alswdan.field_hmamat
+field_name: field_hmamat
+entity_type: node
+bundle: _qar_alswdan
+label: حمامات
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer
