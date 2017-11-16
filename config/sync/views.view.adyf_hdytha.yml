@@ -1,4 +1,4 @@
-uuid: 2d9af094-1f1c-4574-8b56-ce1c7f83add4
+uuid: 6823a5a7-eb2b-47d1-9e42-4ee6fc0269f0
 langcode: en
 status: true
 dependencies:
@@ -6,25 +6,21 @@ dependencies:
     - field.storage.node.field_alkhdmt_almtlwbt
     - field.storage.node.field_almntqt_alhy
     - field.storage.node.field_als_r
+    - field.storage.node.field_ghrf
+    - field.storage.node.field_hmamat
     - field.storage.node.field_image
     - field.storage.node.field_nw_al_qar
     - field.storage.node.field_tags
     - image.style.medium
     - node.type._qar_alswdan
-    - system.menu.main
-    - taxonomy.vocabulary.alkhdmt_almtlwbt
-    - taxonomy.vocabulary.alwlayt_almhafzt
-    - taxonomy.vocabulary.nw_al_qar
   module:
     - flexslider_fields
-    - history
     - node
     - options
     - statistics
-    - taxonomy
     - user
-id: qaymt_al_qarat
-label: 'قائمة العقارات'
+id: adyf_hdytha
+label: 'اضيف حديثا'
 module: views
 description: ''
 tag: ''
@@ -64,453 +60,35 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: some
         options:
           items_per_page: 10
           offset: 0
-          id: 0
-          total_pages: null
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
-        type: table
+        type: grid
         options:
-          grouping:
-            -
-              field: title
-              rendered: true
-              rendered_strip: false
-          row_class: ''
-          default_row_class: true
-          override: true
-          sticky: true
-          caption: ''
-          summary: ''
-          description: ''
-          columns:
-            field_alkhdmt_almtlwbt: field_alkhdmt_almtlwbt
-            field_nw_al_qar: field_alkhdmt_almtlwbt
-            field_image: field_alkhdmt_almtlwbt
-            created: field_alkhdmt_almtlwbt
-            title: title
-            field_tags: title
-            field_almntqt_alhy: title
-            uid: title
-            totalcount: title
-            timestamp: title
-            field_als_r: title
-          info:
-            field_alkhdmt_almtlwbt:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: '<div>'
-              empty_column: false
-              responsive: ''
-            field_nw_al_qar:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_image:
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            created:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            title:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: '<div>'
-              empty_column: false
-              responsive: ''
-            field_tags:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_almntqt_alhy:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            uid:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            totalcount:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            timestamp:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            field_als_r:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-          default: '-1'
-          empty_table: false
+          uses_fields: false
+          columns: 4
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline:
+            field_tags: field_tags
+            field_almntqt_alhy: field_almntqt_alhy
+            field_alkhdmt_almtlwbt: field_alkhdmt_almtlwbt
+            field_nw_al_qar: field_nw_al_qar
+            field_hmamat: field_hmamat
+            field_ghrf: field_ghrf
+          separator: \
+          hide_empty: false
       fields:
-        field_alkhdmt_almtlwbt:
-          id: field_alkhdmt_almtlwbt
-          table: node__field_alkhdmt_almtlwbt
-          field: field_alkhdmt_almtlwbt
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: entity_reference_label
-          settings:
-            link: true
-          group_column: target_id
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_nw_al_qar:
-          id: field_nw_al_qar
-          table: node__field_nw_al_qar
-          field: field_nw_al_qar
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: entity_reference_label
-          settings:
-            link: true
-          group_column: target_id
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_image:
-          id: field_image
-          table: node__field_image
-          field: field_image
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: flexslider
-          settings:
-            optionset: default
-            image_style: medium
-            image_link: content
-            caption: '0'
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 1
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: timestamp_ago
-          settings:
-            granularity: 2
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: node
-          entity_field: created
-          plugin_id: field
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 150
-            word_boundary: false
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: true
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: true
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: node
-          entity_field: title
-          plugin_id: field
         field_tags:
           id: field_tags
           table: node__field_tags
@@ -637,10 +215,76 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        uid:
-          id: uid
-          table: node_field_data
-          field: uid
+        field_image:
+          id: field_image
+          table: node__field_image
+          field: field_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: flexslider
+          settings:
+            optionset: default
+            image_style: medium
+            image_link: ''
+            caption: '0'
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_alkhdmt_almtlwbt:
+          id: field_alkhdmt_almtlwbt
+          table: node__field_alkhdmt_almtlwbt
+          field: field_alkhdmt_almtlwbt
           relationship: none
           group_type: group
           admin_label: ''
@@ -699,13 +343,11 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-          entity_type: node
-          entity_field: uid
           plugin_id: field
-        totalcount:
-          id: totalcount
-          table: node_counter
-          field: totalcount
+        field_nw_al_qar:
+          id: field_nw_al_qar
+          table: node__field_nw_al_qar
+          field: field_nw_al_qar
           relationship: none
           group_type: group
           admin_label: ''
@@ -750,66 +392,21 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          set_precision: false
-          precision: 0
-          decimal: .
-          separator: ','
-          format_plural: true
-          format_plural_string: !!binary MQNAY291bnQ=
-          prefix: ''
-          suffix: مشاهدات
-          plugin_id: statistics_numeric
-        timestamp:
-          id: timestamp
-          table: history
-          field: timestamp
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          link_to_node: false
-          comments: false
-          plugin_id: history_user_timestamp
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
         field_als_r:
           id: field_als_r
           table: node__field_als_r
@@ -861,7 +458,7 @@ display:
           click_sort_column: value
           type: number_integer
           settings:
-            thousand_separator: ','
+            thousand_separator: ''
             prefix_suffix: true
           group_column: value
           group_columns: {  }
@@ -874,6 +471,187 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_hmamat:
+          id: field_hmamat
+          table: node__field_hmamat
+          field: field_hmamat
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: حمامات
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_ghrf:
+          id: field_ghrf
+          table: node__field_ghrf
+          field: field_ghrf
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: غرف
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        totalcount:
+          id: totalcount
+          table: node_counter
+          field: totalcount
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'عدد المشاهدات'
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          set_precision: false
+          precision: 0
+          decimal: .
+          separator: ','
+          format_plural: false
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+          plugin_id: statistics_numeric
       filters:
         status:
           value: '1'
@@ -895,324 +673,6 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-          group: 1
-        field_tags_target_id:
-          id: field_tags_target_id
-          table: node__field_tags
-          field: field_tags_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_tags_target_id_op
-            label: الولاية/المحافظة
-            description: ''
-            use_operator: false
-            operator: field_tags_target_id_op
-            identifier: field_tags_target_id
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: alwlayt_almhafzt
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
-        field_alkhdmt_almtlwbt_target_id:
-          id: field_alkhdmt_almtlwbt_target_id
-          table: node__field_alkhdmt_almtlwbt
-          field: field_alkhdmt_almtlwbt_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_alkhdmt_almtlwbt_target_id_op
-            label: 'الخدمة المطلوبة'
-            description: ''
-            use_operator: false
-            operator: field_alkhdmt_almtlwbt_target_id_op
-            identifier: field_alkhdmt_almtlwbt_target_id
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: alkhdmt_almtlwbt
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
-        field_nw_al_qar_target_id_1:
-          id: field_nw_al_qar_target_id_1
-          table: node__field_nw_al_qar
-          field: field_nw_al_qar_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_nw_al_qar_target_id_1_op
-            label: 'نوع العقار'
-            description: ''
-            use_operator: false
-            operator: field_nw_al_qar_target_id_1_op
-            identifier: field_nw_al_qar_target_id_1
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: nw_al_qar
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
-        field_als_r_value:
-          id: field_als_r_value
-          table: node__field_als_r
-          field: field_als_r_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: '='
-          value:
-            min: ''
-            max: ''
-            value: ''
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_als_r_value_op
-            label: 'السعر (field_als_r)'
-            description: null
-            use_operator: false
-            operator: field_als_r_value_op
-            identifier: field_als_r_value
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: true
-          group_info:
-            label: السعر
-            description: ''
-            identifier: field_als_r_value
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items:
-              1:
-                title: 5.000.000
-                operator: '='
-                value:
-                  value: 5.000.000
-                  min: ''
-                  max: ''
-              2:
-                title: 50.000.000
-                operator: '='
-                value:
-                  value: 50.000.000
-                  min: ''
-                  max: ''
-              3:
-                title: 100.000.000
-                operator: '='
-                value:
-                  value: 100.000.000
-                  min: ''
-                  max: ''
-              4:
-                title: 200.000.000
-                operator: '='
-                value:
-                  value: 200.000.000
-                  min: ''
-                  max: ''
-              5:
-                title: 500.000.000
-                operator: '='
-                value:
-                  value: 500.000.000
-                  min: ''
-                  max: ''
-              6:
-                title: 1.00.000.000
-                operator: '='
-                value:
-                  value: 1.00.000.000
-                  min: ''
-                  max: ''
-              7:
-                title: 1.00.000.000
-                operator: '='
-                value:
-                  value: 1.00.000.000
-                  min: ''
-                  max: ''
-              8:
-                title: 10.00.000.000
-                operator: '='
-                value:
-                  value: 10.00.000.000
-                  min: ''
-                  max: ''
-              9:
-                title: 50.00.000.000
-                operator: '='
-                value:
-                  value: 50.00.000.000
-                  min: ''
-                  max: ''
-          plugin_id: numeric
-        field_hmamat_value:
-          id: field_hmamat_value
-          table: node__field_hmamat
-          field: field_hmamat_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_hmamat_value_op
-            label: حمامات
-            description: ''
-            use_operator: false
-            operator: field_hmamat_value_op
-            identifier: field_hmamat_value
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          plugin_id: list_field
-        field_ghrf_value:
-          id: field_ghrf_value
-          table: node__field_ghrf
-          field: field_ghrf_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_ghrf_value_op
-            label: غرف
-            description: ''
-            use_operator: false
-            operator: field_ghrf_value_op
-            identifier: field_ghrf_value
-            required: false
-            remember: true
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          plugin_id: list_field
       sorts:
         created:
           id: created
@@ -1229,70 +689,239 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'قائمة العقارات'
+      title: 'اضيف حديثا'
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      use_ajax: true
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.field_alkhdmt_almtlwbt'
         - 'config:field.storage.node.field_almntqt_alhy'
         - 'config:field.storage.node.field_als_r'
+        - 'config:field.storage.node.field_ghrf'
+        - 'config:field.storage.node.field_hmamat'
         - 'config:field.storage.node.field_image'
         - 'config:field.storage.node.field_nw_al_qar'
         - 'config:field.storage.node.field_tags'
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: 'الأكثر شهرة '
     position: 2
     display_options:
       display_extenders: {  }
-      exposed_form:
-        type: input_required
-        options:
-          submit_button: Apply
-          reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
-          expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
-          text_input_required: 'Select any filter and click on Apply to see results'
-          text_input_required_format: basic_html
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            _qar_alswdan: _qar_alswdan
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        totalcount:
+          id: totalcount
+          table: node_counter
+          field: totalcount
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '>'
+          value:
+            min: ''
+            max: ''
+            value: '0'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
       defaults:
-        exposed_form: false
+        filters: false
+        filter_groups: false
+        title: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      display_description: ''
+      title: 'الأكثر شهرة '
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.field_alkhdmt_almtlwbt'
         - 'config:field.storage.node.field_almntqt_alhy'
         - 'config:field.storage.node.field_als_r'
+        - 'config:field.storage.node.field_ghrf'
+        - 'config:field.storage.node.field_hmamat'
+        - 'config:field.storage.node.field_image'
+        - 'config:field.storage.node.field_nw_al_qar'
+        - 'config:field.storage.node.field_tags'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'الأكثر شهرة اليوم'
+    position: 3
+    display_options:
+      display_extenders: {  }
+      title: 'الاكثر شهرة اليوم'
+      defaults:
+        title: false
+        filters: false
+        filter_groups: false
+      display_description: ''
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            _qar_alswdan: _qar_alswdan
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        daycount:
+          id: daycount
+          table: node_counter
+          field: daycount
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '>'
+          value:
+            min: ''
+            max: ''
+            value: '0'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_alkhdmt_almtlwbt'
+        - 'config:field.storage.node.field_almntqt_alhy'
+        - 'config:field.storage.node.field_als_r'
+        - 'config:field.storage.node.field_ghrf'
+        - 'config:field.storage.node.field_hmamat'
+        - 'config:field.storage.node.field_image'
+        - 'config:field.storage.node.field_nw_al_qar'
+        - 'config:field.storage.node.field_tags'
+  block_3:
+    display_plugin: block
+    id: block_3
+    display_title: 'أضيف حديثا'
+    position: 4
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      title: 'أضيف حديثا'
+      defaults:
+        title: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_alkhdmt_almtlwbt'
+        - 'config:field.storage.node.field_almntqt_alhy'
+        - 'config:field.storage.node.field_als_r'
+        - 'config:field.storage.node.field_ghrf'
+        - 'config:field.storage.node.field_hmamat'
         - 'config:field.storage.node.field_image'
         - 'config:field.storage.node.field_nw_al_qar'
         - 'config:field.storage.node.field_tags'
@@ -1303,25 +932,20 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: /property-listing
-      menu:
-        type: normal
-        title: 'قائمة العقارات'
-        menu_name: main
+      path: recent_listing
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.field_alkhdmt_almtlwbt'
         - 'config:field.storage.node.field_almntqt_alhy'
         - 'config:field.storage.node.field_als_r'
+        - 'config:field.storage.node.field_ghrf'
+        - 'config:field.storage.node.field_hmamat'
         - 'config:field.storage.node.field_image'
         - 'config:field.storage.node.field_nw_al_qar'
         - 'config:field.storage.node.field_tags'

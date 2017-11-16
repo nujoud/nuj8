@@ -1,0 +1,20 @@
+uuid: ddda7a85-6976-4e96-b377-4a16c4429d73
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+  theme:
+    - drupal8_parallax_theme
+id: quicktabshometabs
+theme: drupal8_parallax_theme
+region: footer_second
+weight: 0
+provider: null
+plugin: 'quicktabs_block:home_tabs'
+settings:
+  id: 'quicktabs_block:home_tabs'
+  label: 'QuickTabs - Home tabs'
+  provider: quicktabs
+  label_display: '0'
+visibility: {  }

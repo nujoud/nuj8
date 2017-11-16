@@ -1,0 +1,86 @@
+uuid: e53ca59a-6ed1-41d3-aa14-fc602f860554
+langcode: en
+status: true
+dependencies: {  }
+id: home_tabs
+label: 'Home tabs'
+renderer: accordion_tabs
+options:
+  accordion_tabs:
+    jquery_ui:
+      collapsible: 0
+      heightStyle: auto
+  quick_tabs:
+    ajax: '1'
+hide_empty_tabs: 0
+default_tab: '0'
+configuration_data:
+  -
+    title: 'أضيف حديثًا'
+    weight: '0'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:adyf_hdytha-block_3'
+          block_title: ''
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: adyf_hdytha
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'الأكثر شهرة'
+    weight: '0'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:adyf_hdytha-block_1'
+          block_title: ''
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: adyf_hdytha
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'الأكثر شهرة اليوم'
+    weight: '0'
+    type: block_content
+    content:
+      block_content:
+        options:
+          bid: 'views_block:adyf_hdytha-block_2'
+          block_title: ''
+          display_title: 0
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: '1'
+      view_content:
+        options:
+          vid: adyf_hdytha
+          display: default
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''

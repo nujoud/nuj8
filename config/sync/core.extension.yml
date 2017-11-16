@@ -48,6 +48,7 @@ module:
   path: 0
   profile: 0
   quickedit: 0
+  quicktabs: 0
   rdf: 0
   responsive_tables_filter: 0
   search: 0
