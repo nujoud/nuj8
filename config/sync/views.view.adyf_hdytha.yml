@@ -86,7 +86,7 @@ display:
             field_nw_al_qar: field_nw_al_qar
             field_hmamat: field_hmamat
             field_ghrf: field_ghrf
-          separator: \
+          separator: /
           hide_empty: false
       fields:
         field_tags:

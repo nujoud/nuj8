@@ -1,0 +1,7 @@
+uuid: 38f4ecfe-3766-464f-9d9f-5a289467b684
+langcode: en
+status: true
+dependencies: {  }
+formId: recaptcha_admin_settings
+captchaType: recaptcha/reCAPTCHA
+label: recaptcha_admin_settings
