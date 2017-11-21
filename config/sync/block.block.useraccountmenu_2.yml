@@ -10,15 +10,15 @@ dependencies:
     - drupal8_parallax_theme
 id: useraccountmenu_2
 theme: drupal8_parallax_theme
-region: top_menu
-weight: 0
+region: topwidget_second
+weight: -10
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
   label: 'User account menu'
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 97b1a45d-5c5d-468e-89fd-fa756e8c2b1f
+uuid: 253a5b9c-c38c-4f77-b44d-0226bb3ff9d4
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,10 @@ dependencies:
     - system
   theme:
     - drupal8_parallax_theme
-_core:
-  default_config_hash: siAK1e67EHT0QL9dLWLGFaCuinxY0N0jHsGH0zjHPUI
-id: drupal8_parallax_theme_branding
+id: sitebranding
 theme: drupal8_parallax_theme
 region: header
-weight: 0
+weight: -10
 provider: null
 plugin: system_branding_block
 settings:

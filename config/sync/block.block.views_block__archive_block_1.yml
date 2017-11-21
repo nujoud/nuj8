@@ -1,21 +1,21 @@
-uuid: fd2bf80f-4cfc-4aa3-b31c-73b67165ddef
+uuid: 33a2adbf-9064-43e8-959c-eb1b45fb154e
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.who_s_new
+    - views.view.archive
   module:
     - views
   theme:
     - drupal8_parallax_theme
-id: views_block__who_s_new_block_1
+id: views_block__archive_block_1
 theme: drupal8_parallax_theme
-region: google_map
-weight: 0
+region: address
+weight: -10
 provider: null
-plugin: 'views_block:who_s_new-block_1'
+plugin: 'views_block:archive-block_1'
 settings:
-  id: 'views_block:who_s_new-block_1'
+  id: 'views_block:archive-block_1'
   label: ''
   provider: views
   label_display: visible

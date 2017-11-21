@@ -11,7 +11,7 @@ dependencies:
 id: views_block__qaymt_al_qarat_block_1
 theme: drupal8_parallax_theme
 region: topwidget_first
-weight: -11
+weight: -9
 provider: null
 plugin: 'views_block:qaymt_al_qarat-block_1'
 settings:
