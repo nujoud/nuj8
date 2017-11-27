@@ -1,0 +1,21 @@
+uuid: dba4f439-ba0d-4234-b542-b51b0ed72448
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - drupal8_parallax_theme
+id: syndicate
+theme: drupal8_parallax_theme
+region: footer_third
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: Syndicate
+  provider: node
+  label_display: visible
+  block_count: 10
+visibility: {  }

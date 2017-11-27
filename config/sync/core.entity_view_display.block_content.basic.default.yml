@@ -1,5 +1,5 @@
 uuid: 8282e0dd-60ae-41cd-8f9b-5bfb9ded037a
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -7,7 +7,6 @@ dependencies:
     - field.field.block_content.basic.body
   module:
     - field_layout
-    - layout_discovery
     - text
 third_party_settings:
   field_layout:
@@ -27,4 +26,5 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

@@ -32,9 +32,10 @@ _core:
   default_config_hash: KaLNVgq6qGhSV-TerDCQAiCaPJrmq41RgHhVcYzbxjI
 logo:
   use_default: 0
-  path: 'public://logo_0.jpg'
+  path: 'public://logo1_0.jpg'
 favicon:
   use_default: 1
 slide_image_path1: {  }
 slide_image_path2: {  }
 slide_image_path3: {  }
+langcode: ar

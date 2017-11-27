@@ -1,5 +1,5 @@
 uuid: f097f2fc-352a-4acd-b962-094ee6c9e7d6
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -9,7 +9,6 @@ dependencies:
   module:
     - field_layout
     - image
-    - layout_discovery
     - user
 third_party_settings:
   field_layout:
@@ -32,4 +31,5 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  langcode: true
   member_for: true

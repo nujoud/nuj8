@@ -11,10 +11,10 @@ dependencies:
     - field.storage.node.field_image
     - field.storage.node.field_nw_al_qar
     - field.storage.node.field_tags
-    - image.style.medium
+    - image.style.flexslider_thumbnail
     - node.type._qar_alswdan
   module:
-    - flexslider_fields
+    - image
     - node
     - options
     - statistics
@@ -67,9 +67,9 @@ display:
       style:
         type: grid
         options:
-          uses_fields: false
+          grouping: {  }
           columns: 4
-          automatic_width: true
+          automatic_width: false
           alignment: horizontal
           col_class_default: true
           col_class_custom: ''
@@ -264,12 +264,10 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: flexslider
+          type: image
           settings:
-            optionset: default
-            image_style: medium
-            image_link: ''
-            caption: '0'
+            image_style: flexslider_thumbnail
+            image_link: content
           group_column: ''
           group_columns: {  }
           group_rows: true

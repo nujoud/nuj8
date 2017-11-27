@@ -1,5 +1,5 @@
 uuid: fb6fe77a-e8b7-4976-b58b-abd8304c1f74
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -14,7 +14,6 @@ dependencies:
     - comment
     - field_layout
     - image
-    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -67,3 +66,4 @@ content:
 hidden:
   field_image: true
   field_tags: true
+  langcode: true

@@ -1,9 +1,9 @@
 uuid: 0cc4a107-de21-4ed6-a4a3-50847067fe41
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
-    - system.menu.main
+    - system.menu.footer
   module:
     - node
     - user
@@ -444,8 +444,11 @@ display:
         type: normal
         title: Glossary
         weight: 0
-        menu_name: main
+        menu_name: tools
         parent: ''
+        description: ''
+        expanded: false
+        enabled: true
       display_extenders: {  }
     cache_metadata:
       contexts:

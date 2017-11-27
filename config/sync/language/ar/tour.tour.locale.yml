@@ -1,0 +1,8 @@
+label: الترجمة
+tips:
+  locale-search:
+    label: بحث
+  locale-submit:
+    body: بحث
+  locale-translate:
+    label: ترجمة

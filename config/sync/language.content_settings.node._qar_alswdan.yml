@@ -1,0 +1,11 @@
+uuid: 5bfc0f13-5f91-4774-8d54-a4590f3d3533
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type._qar_alswdan
+id: node._qar_alswdan
+target_entity_type_id: node
+target_bundle: _qar_alswdan
+default_langcode: site_default
+language_alterable: false

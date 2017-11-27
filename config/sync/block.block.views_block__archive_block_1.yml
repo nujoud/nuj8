@@ -10,8 +10,8 @@ dependencies:
     - drupal8_parallax_theme
 id: views_block__archive_block_1
 theme: drupal8_parallax_theme
-region: address
-weight: -10
+region: footer_first
+weight: -12
 provider: null
 plugin: 'views_block:archive-block_1'
 settings:

@@ -1,5 +1,5 @@
 uuid: 9d17629c-99a0-4dd4-bde7-f7cc68028b85
-langcode: en
+langcode: ar
 status: true
 dependencies:
   theme:
@@ -8,8 +8,8 @@ _core:
   default_config_hash: a4SgNAeXPGzhuoL_OBateNlgRA4CEF3UXzdTvcUtbFc
 id: drupal8_parallax_theme_local_actions
 theme: drupal8_parallax_theme
-region: auto_hidden_block
-weight: -7
+region: services
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:

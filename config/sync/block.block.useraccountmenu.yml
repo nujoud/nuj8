@@ -11,7 +11,7 @@ dependencies:
 id: useraccountmenu
 theme: drupal8_parallax_theme
 region: clients
-weight: 0
+weight: -11
 provider: null
 plugin: 'system_menu_block:account'
 settings:

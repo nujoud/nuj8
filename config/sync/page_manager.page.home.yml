@@ -1,12 +1,19 @@
-uuid: c6aa8ea3-8de3-4d1f-9f7c-6fd91d759316
+uuid: 03351338-761b-474a-a64f-aba86ab6c8d3
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - system
 id: home
 label: Home
-description: 'The home page'
+description: Homepage
 use_admin_theme: false
 path: /home
 access_logic: and
-access_conditions: {  }
+access_conditions:
+  -
+    id: current_theme
+    theme: drupal8_parallax_theme
+    negate: false
+    context_mapping: {  }
 parameters: {  }

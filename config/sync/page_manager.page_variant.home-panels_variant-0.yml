@@ -1,26 +1,95 @@
-uuid: 93b0ad50-5392-4cf5-9b47-f20b748b7500
+uuid: 11e271f4-f62c-4bd3-8037-f63080031650
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.home
+    - views.view.archive
+    - views.view.who_s_new
+    - views.view.who_s_online
   module:
     - panels
+    - quicktabs
+    - search
+    - views
 id: home-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    55fa2e67-9d1c-4b5f-ac2f-c867832653aa:
+      id: 'quicktabs_block:home_tabs'
+      label: 'QuickTabs - Home tabs'
+      provider: quicktabs
+      label_display: '0'
+      context_mapping: {  }
+      region: footer
+      uuid: 55fa2e67-9d1c-4b5f-ac2f-c867832653aa
+      weight: 1
+    2b1d1fdd-df6f-45ef-b917-f5021ef2004d:
+      id: search_form_block
+      label: 'Search form'
+      provider: search
+      label_display: visible
+      context_mapping: {  }
+      region: header
+      uuid: 2b1d1fdd-df6f-45ef-b917-f5021ef2004d
+      weight: 1
+    1cf99ca4-dd2b-41fb-95ac-3437f314745c:
+      id: 'views_block:who_s_online-who_s_online_block'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      context_mapping: {  }
+      region: middle
+      uuid: 1cf99ca4-dd2b-41fb-95ac-3437f314745c
+      weight: 1
+    1dcb6b3c-1e41-4534-852b-11b90f6c622e:
+      id: 'views_block:archive-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      context_mapping: {  }
+      region: left
+      uuid: 1dcb6b3c-1e41-4534-852b-11b90f6c622e
+      weight: 1
+    34f1824b-23a7-4074-84ad-0fd3a5503a7f:
+      id: 'views_block:who_s_new-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      context_mapping: {  }
+      region: right
+      uuid: 34f1824b-23a7-4074-84ad-0fd3a5503a7f
+      weight: 1
   id: panels_variant
-  uuid: aed03e89-409c-4b52-9045-41ff6896a52b
+  uuid: 83e15642-0a82-46f1-bea1-bbbf6b05bf5d
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
-  page_title: ''
+  layout: ds_3col_stacked_fluid
+  layout_settings:
+    wrappers:
+      header: div
+      left: div
+      middle: div
+      right: div
+      footer: div
+    outer_wrapper: div
+    attributes: ''
+    link_attribute: ''
+    link_custom: ''
+    classes:
+      layout_class: {  }
+  page_title: home
   storage_type: page_manager
   storage_id: home-panels_variant-0
-  builder: standard
+  builder: ipe
 page: home
 weight: 0
 selection_criteria: {  }

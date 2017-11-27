@@ -1,5 +1,5 @@
 uuid: 597b7d9c-7035-4aa3-9ad8-9b6b9888fc42
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -13,7 +13,6 @@ dependencies:
   module:
     - field_layout
     - image
-    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -59,3 +58,4 @@ hidden:
   comment: true
   field_image: true
   field_tags: true
+  langcode: true

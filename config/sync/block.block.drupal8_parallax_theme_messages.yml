@@ -1,5 +1,5 @@
 uuid: fe74ac2e-db8d-4d58-a083-187f4cde2c65
-langcode: en
+langcode: ar
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: drupal8_parallax_theme_messages
 theme: drupal8_parallax_theme
 region: highlighted
-weight: -10
+weight: -11
 provider: null
 plugin: system_messages_block
 settings:

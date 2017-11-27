@@ -5,5 +5,24 @@ definitions:
     parent: ''
     weight: 0
     expanded: false
+  search__view:
+    enabled: true
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0
+  filter__tips_all:
+    enabled: true
+    menu_name: tools
+    parent: ''
+    expanded: false
+    weight: 0
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: ar

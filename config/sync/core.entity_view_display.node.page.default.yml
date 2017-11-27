@@ -1,5 +1,5 @@
 uuid: 8d76dd57-8a31-453f-8a60-b1023f8b7cc7
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -7,7 +7,6 @@ dependencies:
     - node.type.page
   module:
     - field_layout
-    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -31,4 +30,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

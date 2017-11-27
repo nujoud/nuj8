@@ -1,5 +1,5 @@
 uuid: 2e6e554a-4203-4988-8665-6d51c8774cb4
-langcode: en
+langcode: ar
 status: true
 dependencies: {  }
 _core:
@@ -14,9 +14,10 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'access user profiles'
+  - 'change own username'
   - 'create _qar_alswdan content'
   - 'edit own _qar_alswdan content'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
-  - 'use text format basic_html'
+  - 'view post access counter'

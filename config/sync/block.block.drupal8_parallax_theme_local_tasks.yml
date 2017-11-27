@@ -1,5 +1,5 @@
 uuid: b6dc9f0b-9987-45d6-b126-06551457ddd8
-langcode: en
+langcode: ar
 status: true
 dependencies:
   theme:
@@ -9,7 +9,7 @@ _core:
 id: drupal8_parallax_theme_local_tasks
 theme: drupal8_parallax_theme
 region: content
-weight: 0
+weight: -12
 provider: null
 plugin: local_tasks_block
 settings:

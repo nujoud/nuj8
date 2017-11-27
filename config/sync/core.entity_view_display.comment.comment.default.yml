@@ -1,5 +1,5 @@
 uuid: a36c462f-8be7-4b46-8d4b-1c648209b3f0
-langcode: en
+langcode: ar
 status: true
 dependencies:
   config:
@@ -7,7 +7,6 @@ dependencies:
     - field.field.comment.comment.comment_body
   module:
     - field_layout
-    - layout_discovery
     - text
 third_party_settings:
   field_layout:
@@ -30,4 +29,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  langcode: true

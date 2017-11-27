@@ -1,0 +1,24 @@
+uuid: 909d89ab-ee16-4f71-9d88-fe3f55818de3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.adf_a_lank
+  module:
+    - views
+  theme:
+    - drupal8_parallax_theme
+id: views_block__adf_a_lank_block_1
+theme: drupal8_parallax_theme
+region: topwidget_first
+weight: -10
+provider: null
+plugin: 'views_block:adf_a_lank-block_1'
+settings:
+  id: 'views_block:adf_a_lank-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
