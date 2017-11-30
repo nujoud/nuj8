@@ -20,7 +20,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: الرئيسي
     position: 0
     display_options:
       access:
@@ -232,7 +232,7 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          content: 'No comments available.'
+          content: 'لا تعليقات.'
           tokenize: false
           plugin_id: text_custom
       display_extenders: {  }
@@ -246,7 +246,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: الصندوق
     position: 1
     display_options:
       block_description: 'Recent comments'

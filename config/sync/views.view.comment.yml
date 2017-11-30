@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: cCq1vjj1qmyd39oBIUyOe8YPDsobJ5fZRhp2Xy5O7lA
 id: comment
-label: Comments
+label: التعليقات
 module: comment
 description: 'Find and manage comments.'
 tag: default
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: الرئيسي
     position: 0
     display_options:
       access:
@@ -40,13 +40,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: تطبيق
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
       pager:
         type: full
         options:
@@ -64,7 +64,7 @@ display:
             items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- الكل -'
             offset: false
             offset_label: Offset
           quantity: 9
@@ -180,7 +180,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: إجراء
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -194,7 +194,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Subject
+          label: الموضوع
           exclude: false
           alter:
             alter_text: false
@@ -324,7 +324,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Author
+          label: المؤلف
           exclude: false
           alter:
             alter_text: false
@@ -388,7 +388,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Posted in'
+          label: 'نُشِر في'
           exclude: false
           alter:
             alter_text: false
@@ -453,7 +453,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: التحديث
           exclude: false
           alter:
             alter_text: false
@@ -520,7 +520,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: عمليات
           exclude: false
           alter:
             alter_text: false
@@ -681,7 +681,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: الموضوع
             description: ''
             use_operator: false
             operator: subject_op
@@ -762,7 +762,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: اللغة
             description: ''
             use_operator: false
             operator: langcode_op
@@ -806,7 +806,7 @@ display:
           entity_type: comment
           entity_field: changed
           plugin_id: date
-      title: Comments
+      title: التعليقات
       header: {  }
       footer: {  }
       empty:
@@ -819,13 +819,13 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No comments available.'
+          content: 'لا تعليقات.'
           plugin_id: text_custom
       arguments: {  }
       display_extenders: {  }
       use_more: false
       use_more_always: true
-      use_more_text: more
+      use_more_text: المزيد
       use_ajax: false
       hide_attachment_summary: false
       show_admin_links: true
@@ -860,13 +860,13 @@ display:
   page_published:
     display_plugin: page
     id: page_published
-    display_title: 'Published comments'
+    display_title: 'تعليقات منشورة'
     position: 1
     display_options:
       path: admin/content/comment
       menu:
         type: tab
-        title: Comments
+        title: التعليقات
         description: 'Comments published'
         parent: ''
         weight: 0
@@ -889,13 +889,13 @@ display:
   page_unapproved:
     display_plugin: page
     id: page_unapproved
-    display_title: 'Unapproved comments'
+    display_title: 'التعليقات الغير موافق عليها'
     position: 2
     display_options:
       path: admin/content/comment/approval
       menu:
         type: tab
-        title: 'Unapproved comments'
+        title: 'التعليقات الغير موافق عليها'
         description: 'Comments unapproved'
         parent: ''
         weight: 1
@@ -954,7 +954,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: الموضوع
             description: ''
             use_operator: false
             operator: subject_op
@@ -1035,7 +1035,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: اللغة
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1117,7 +1117,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: إجراء
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -1131,7 +1131,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Subject
+          label: الموضوع
           exclude: false
           alter:
             alter_text: false
@@ -1261,7 +1261,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Author
+          label: المؤلف
           exclude: false
           alter:
             alter_text: false
@@ -1325,7 +1325,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Posted in'
+          label: 'نُشِر في'
           exclude: false
           alter:
             alter_text: false
@@ -1390,7 +1390,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: التحديث
           exclude: false
           alter:
             alter_text: false
@@ -1457,7 +1457,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: عمليات
           exclude: false
           alter:
             alter_text: false
