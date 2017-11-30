@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: HacS-nsDH7uyoKhQHNyV_MNRClmPVuhU_fWZgNuEyIs
 id: comments_recent
-label: 'Recent comments'
+label: 'أحدث التعليقات'
 module: views
 description: 'Recent comments.'
 tag: default
@@ -221,7 +221,7 @@ display:
           plugin_id: field
           entity_type: comment
           entity_field: cid
-      title: 'Recent comments'
+      title: 'أحدث التعليقات'
       empty:
         area_text_custom:
           id: area_text_custom
@@ -249,7 +249,7 @@ display:
     display_title: الصندوق
     position: 1
     display_options:
-      block_description: 'Recent comments'
+      block_description: 'أحدث التعليقات'
       block_category: 'Lists (Views)'
       allow:
         items_per_page: true

@@ -9,7 +9,7 @@ _core:
 id: user_admin_people
 label: الأشخاص
 module: user
-description: 'Find and manage people interacting with your site.'
+description: 'بحث وإدارة الأشخاص المتفاعلين مع موقعك.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -891,7 +891,7 @@ display:
       menu:
         type: 'default tab'
         title: لائحة
-        description: 'Find and manage people interacting with your site.'
+        description: 'بحث وإدارة الأشخاص المتفاعلين مع موقعك.'
         menu_name: admin
         weight: -10
         context: ''
