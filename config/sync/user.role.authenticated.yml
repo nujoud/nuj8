@@ -13,6 +13,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'access toolbar'
   - 'access user profiles'
   - 'change own username'
   - 'create _qar_alswdan content'
