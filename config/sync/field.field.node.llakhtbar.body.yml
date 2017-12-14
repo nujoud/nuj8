@@ -1,0 +1,22 @@
+uuid: 3ae22d04-eff4-4853-ade3-40b7b9a952b3
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.llakhtbar
+  module:
+    - text
+id: node.llakhtbar.body
+field_name: body
+entity_type: node
+bundle: llakhtbar
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

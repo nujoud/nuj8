@@ -1,0 +1,27 @@
+uuid: be58c870-b81e-4349-b285-6a5e35111c94
+langcode: ar
+status: true
+dependencies:
+  config:
+    - field.field.node.llakhtbar.body
+    - node.type.llakhtbar
+  module:
+    - text
+    - user
+id: node.llakhtbar.default
+targetEntityType: node
+bundle: llakhtbar
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
