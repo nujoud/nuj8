@@ -28,7 +28,7 @@ type_settings:
       weight: 0
   transitions:
     archive:
-      label: Archive
+      label: الأرشيف
       from:
         - published
       to: archived
@@ -53,7 +53,7 @@ type_settings:
         - draft
         - published
     publish:
-      label: Publish
+      label: انشر
       to: published
       weight: 1
       from:
