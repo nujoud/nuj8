@@ -16,9 +16,9 @@ provider: null
 plugin: 'views_block:who_s_new-block_1'
 settings:
   id: 'views_block:who_s_new-block_1'
-  label: ''
+  label: 'من الجديد'
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: 'من الجديد'
   items_per_page: none
 visibility: {  }

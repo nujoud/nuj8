@@ -9,7 +9,7 @@ dependencies:
 id: syndicate
 theme: drupal8_parallax_theme
 region: auto_hidden_block
-weight: -10
+weight: -9
 provider: null
 plugin: node_syndicate_block
 settings:
