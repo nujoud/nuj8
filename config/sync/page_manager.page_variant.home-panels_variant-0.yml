@@ -22,19 +22,19 @@ variant_settings:
       label: 'QuickTabs - Home tabs'
       provider: quicktabs
       label_display: '0'
-      context_mapping: {  }
       region: footer
-      uuid: 55fa2e67-9d1c-4b5f-ac2f-c867832653aa
       weight: 1
+      context_mapping: {  }
+      uuid: 55fa2e67-9d1c-4b5f-ac2f-c867832653aa
     2b1d1fdd-df6f-45ef-b917-f5021ef2004d:
       id: search_form_block
       label: 'Search form'
       provider: search
       label_display: visible
-      context_mapping: {  }
       region: header
-      uuid: 2b1d1fdd-df6f-45ef-b917-f5021ef2004d
       weight: 1
+      context_mapping: {  }
+      uuid: 2b1d1fdd-df6f-45ef-b917-f5021ef2004d
     1cf99ca4-dd2b-41fb-95ac-3437f314745c:
       id: 'views_block:who_s_online-who_s_online_block'
       label: ''
@@ -42,10 +42,10 @@ variant_settings:
       label_display: visible
       views_label: ''
       items_per_page: none
-      context_mapping: {  }
       region: middle
-      uuid: 1cf99ca4-dd2b-41fb-95ac-3437f314745c
       weight: 1
+      context_mapping: {  }
+      uuid: 1cf99ca4-dd2b-41fb-95ac-3437f314745c
     1dcb6b3c-1e41-4534-852b-11b90f6c622e:
       id: 'views_block:archive-block_1'
       label: ''
@@ -53,10 +53,10 @@ variant_settings:
       label_display: visible
       views_label: ''
       items_per_page: none
-      context_mapping: {  }
       region: left
-      uuid: 1dcb6b3c-1e41-4534-852b-11b90f6c622e
       weight: 1
+      context_mapping: {  }
+      uuid: 1dcb6b3c-1e41-4534-852b-11b90f6c622e
     34f1824b-23a7-4074-84ad-0fd3a5503a7f:
       id: 'views_block:who_s_new-block_1'
       label: ''
@@ -64,10 +64,10 @@ variant_settings:
       label_display: visible
       views_label: ''
       items_per_page: none
-      context_mapping: {  }
       region: right
-      uuid: 34f1824b-23a7-4074-84ad-0fd3a5503a7f
       weight: 1
+      context_mapping: {  }
+      uuid: 34f1824b-23a7-4074-84ad-0fd3a5503a7f
   id: panels_variant
   uuid: 83e15642-0a82-46f1-bea1-bbbf6b05bf5d
   label: null
@@ -86,7 +86,7 @@ variant_settings:
     link_custom: ''
     classes:
       layout_class: {  }
-  page_title: home
+  page_title: الرئيسية
   storage_type: page_manager
   storage_id: home-panels_variant-0
   builder: ipe
