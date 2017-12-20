@@ -53,6 +53,7 @@ third_party_settings:
         - links
         - body
         - field_image
+        - node_changed_date
       left:
         - field_almsaht
         - field_hmamat
@@ -67,7 +68,13 @@ third_party_settings:
         - field_alshar
       footer:
         - field_als_r
+        - addtoany
     fields:
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 4
+        label: hidden
+        formatter: ds_post_date_long
       node_submitted_by:
         plugin_id: node_submitted_by
         weight: 0
@@ -78,6 +85,11 @@ targetEntityType: node
 bundle: _qar_alswdan
 mode: default
 content:
+  addtoany:
+    weight: 16
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
   body:
     type: text_trimmed
     weight: 2
@@ -88,7 +100,7 @@ content:
     third_party_settings: {  }
   field_alkhdmt_almtlwbt:
     type: entity_reference_label
-    weight: 9
+    weight: 10
     region: right
     label: above
     settings:
@@ -96,7 +108,7 @@ content:
     third_party_settings: {  }
   field_almntqt_alhy:
     type: string
-    weight: 12
+    weight: 13
     region: right
     label: above
     settings:
@@ -104,21 +116,21 @@ content:
     third_party_settings: {  }
   field_almsaht:
     type: number_unformatted
-    weight: 4
+    weight: 5
     region: left
     label: above
     settings: {  }
     third_party_settings: {  }
   field_als_r:
     type: number_unformatted
-    weight: 14
+    weight: 15
     region: footer
     label: above
     settings: {  }
     third_party_settings: {  }
   field_alshar:
     type: string
-    weight: 13
+    weight: 14
     region: right
     label: above
     settings:
@@ -126,14 +138,14 @@ content:
     third_party_settings: {  }
   field_ghrf:
     type: list_default
-    weight: 6
+    weight: 7
     region: left
     label: above
     settings: {  }
     third_party_settings: {  }
   field_hmamat:
     type: list_default
-    weight: 5
+    weight: 6
     region: left
     label: above
     settings: {  }
@@ -149,7 +161,7 @@ content:
     third_party_settings: {  }
   field_nw_al_qar:
     type: entity_reference_label
-    weight: 10
+    weight: 11
     region: right
     label: above
     settings:
@@ -157,7 +169,7 @@ content:
     third_party_settings: {  }
   field_rqm_almwbayl:
     type: telephone_link
-    weight: 8
+    weight: 9
     region: left
     label: above
     settings:
@@ -165,14 +177,14 @@ content:
     third_party_settings: {  }
   field_rqm_alqt_t:
     type: number_unformatted
-    weight: 7
+    weight: 8
     region: left
     label: above
     settings: {  }
     third_party_settings: {  }
   field_tags:
     type: entity_reference_label
-    weight: 11
+    weight: 12
     region: right
     label: above
     settings:
