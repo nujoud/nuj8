@@ -44,6 +44,7 @@
         "drupal/social_login": "^1.6",
         "drupal/telephone_validation": "^2.0",
         "drupal/views_flipped_table": "^1.0",
+        "drupal/yaml_editor": "^1.0",
         "drush/drush": "^8.1",
         "modules-unraveled/drush-shell-aliases": "1.0",
         "webflo/drupal-finder": "^1.0.0",

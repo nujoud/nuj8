@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "756ef0de8b01ce32f3fd4d5c44287241",
+    "content-hash": "70a1dd9890bef546321c13fa898ecda1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3515,6 +3515,53 @@
             "homepage": "https://www.drupal.org/project/views_flipped_table",
             "support": {
                 "source": "http://cgit.drupalcode.org/views_flipped_table"
+            }
+        },
+        {
+            "name": "drupal/yaml_editor",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/yaml_editor",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/yaml_editor-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "06375ccd01bdc8bdf0685a04268fa85f2e0a519d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1507935243",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "yannickoo",
+                    "homepage": "https://www.drupal.org/user/531118"
+                }
+            ],
+            "description": "Adds an editor for YAML configuration textareas.",
+            "homepage": "https://www.drupal.org/project/yaml_editor",
+            "support": {
+                "source": "http://cgit.drupalcode.org/yaml_editor"
             }
         },
         {
