@@ -115,7 +115,7 @@ content:
   field_rqm_almwbayl:
     weight: 20
     settings:
-      placeholder: +
+      placeholder: 'ادخل رقم الموبايل/الهاتف'
     third_party_settings: {  }
     type: telephone_default
     region: content
