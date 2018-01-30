@@ -18,11 +18,11 @@ show_slideshow: 1
 no_of_slides: '3'
 slide_title_1: 'السودان غني بالموارد الطبيعية والأراضي الخصبة'
 slide_description_1: 'السودان من أكبر الأقطار في أفريقيا ، ويمتاز بطبيعة منبسطة نادرة المرتفعات والتعرجات السطحية مما جعله يتمتع بيئات مناخية مختلفة وتنوع في أنواع التربة وخصائصها وتوزيعها الجغرافي'
-slide_url_1: node/2
+slide_url_1: node/1
 slide_image_path_1: /images/slider/slide_01.jpg
 slide_title_2: 'الخرطوم هي عاصمة السودان وحاضرة ولاية الخرطوم'
 slide_description_2: 'تقع عند نقطة التقاء النيل الأبيض بالنيل الأزرق (المقرن)، ليُشكلا معاً نهر النيل. وهي مركز الحكم في السودان '
-slide_url_2: node/1
+slide_url_2: node/2
 slide_image_path_2: /images/slider/slide_02.jpg
 slide_title_3: 'Drupal Design & Development'
 slide_description_3: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since'

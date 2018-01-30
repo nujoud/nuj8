@@ -6,6 +6,7 @@ module:
   admin_toolbar_tools: 0
   automated_cron: 0
   big_pipe: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -58,6 +59,7 @@ module:
   search: 0
   settings_tray: 0
   shortcut: 0
+  slick: 0
   social_login: 0
   statistics: 0
   system: 0

@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_tags
     - node.type._qar_alswdan
     - taxonomy.vocabulary.alwlayt_almhafzt
+  content:
+    - 'taxonomy_term:alwlayt_almhafzt:de11618a-295e-47c4-b232-9770797acc16'
 id: node._qar_alswdan.field_tags
 field_name: field_tags
 entity_type: node
@@ -14,7 +16,9 @@ label: الولاية/المحافظة
 description: ''
 required: true
 translatable: true
-default_value: {  }
+default_value:
+  -
+    target_uuid: de11618a-295e-47c4-b232-9770797acc16
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

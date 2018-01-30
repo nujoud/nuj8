@@ -1,0 +1,24 @@
+uuid: 4253e2ff-b362-42e9-96c4-6a8f0079c6a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view._mlayna
+  module:
+    - views
+  theme:
+    - drupal8_parallax_theme
+id: views_block___mlayna_block_1
+theme: drupal8_parallax_theme
+region: bottom_third
+weight: 0
+provider: null
+plugin: 'views_block:_mlayna-block_1'
+settings:
+  id: 'views_block:_mlayna-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility: {  }

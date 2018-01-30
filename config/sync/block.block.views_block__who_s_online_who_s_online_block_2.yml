@@ -10,7 +10,7 @@ dependencies:
     - drupal8_parallax_theme
 id: views_block__who_s_online_who_s_online_block_2
 theme: drupal8_parallax_theme
-region: bottom_first
+region: auto_hidden_block
 weight: -12
 provider: null
 plugin: 'views_block:who_s_online-who_s_online_block'
