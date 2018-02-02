@@ -8,6 +8,7 @@ id: feedback
 label: 'استمارة الاتصال'
 recipients:
   - admin@nujoud.com
+  - nijood99@hotmail.com
 reply: ''
 weight: 0
 message: 'أُرسلت رسالتك.'

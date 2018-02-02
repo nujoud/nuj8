@@ -51,23 +51,10 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: some
         options:
-          items_per_page: 5
+          items_per_page: 8
           offset: 0
-          id: 0
-          total_pages: null
-          tags:
-            previous: ‹‹
-            next: ››
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
       style:
         type: blazy
         options:
@@ -362,7 +349,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - user.permissions
       tags:
         - 'config:field.storage.user.user_picture'
@@ -373,6 +359,52 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
+      allow:
+        items_per_page: true
+      link_display: page_1
+      defaults:
+        link_display: false
+        link_url: false
+      link_url: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user.permissions
+      tags:
+        - 'config:field.storage.user.user_picture'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: الصفحة
+    position: 2
+    display_options:
+      display_extenders: {  }
+      pager:
+        type: full
+        options:
+          items_per_page: 20
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- الكل -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      defaults:
+        pager: false
+      path: users
     cache_metadata:
       max-age: -1
       contexts:
