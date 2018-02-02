@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node._qar_alswdan.body
+    - field.field.node._qar_alswdan.comment
     - field.field.node._qar_alswdan.field_alkhdmt_almtlwbt
     - field.field.node._qar_alswdan.field_almntqt_alhy
     - field.field.node._qar_alswdan.field_almsaht
@@ -19,6 +20,7 @@ dependencies:
     - image.style.thumbnail
     - node.type._qar_alswdan
   module:
+    - comment
     - content_moderation
     - field_layout
     - image
@@ -43,6 +45,12 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    region: content
+  comment:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   created:
     type: datetime_timestamp
