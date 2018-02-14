@@ -15,6 +15,7 @@ dependencies:
     - field.field.node._qar_alswdan.field_hmamat
     - field.field.node._qar_alswdan.field_image
     - field.field.node._qar_alswdan.field_nw_al_qar
+    - field.field.node._qar_alswdan.field_rqm_almrb_
     - field.field.node._qar_alswdan.field_rqm_almwbayl
     - field.field.node._qar_alswdan.field_rqm_alqt_t
     - field.field.node._qar_alswdan.field_tags
@@ -61,9 +62,11 @@ third_party_settings:
         - field_almsaht
         - field_hmamat
         - field_ghrf
+        - field_rqm_almrb_
         - field_rqm_alqt_t
         - field_rqm_almwbayl
       right:
+        - node_links
         - field_alkhdmt_almtlwbt
         - field_nw_al_qar
         - field_tags
@@ -79,6 +82,11 @@ third_party_settings:
         weight: 4
         label: hidden
         formatter: ds_post_date_long
+      node_links:
+        plugin_id: node_links
+        weight: 11
+        label: hidden
+        formatter: default
       node_submitted_by:
         plugin_id: node_submitted_by
         weight: 0
@@ -90,7 +98,7 @@ bundle: _qar_alswdan
 mode: default
 content:
   addtoany:
-    weight: 16
+    weight: 18
     region: footer
     settings: {  }
     third_party_settings: {  }
@@ -103,7 +111,7 @@ content:
       trim_length: 600
     third_party_settings: {  }
   comment:
-    weight: 17
+    weight: 19
     label: above
     settings:
       view_mode: default
@@ -113,7 +121,7 @@ content:
     region: footer
   field_alkhdmt_almtlwbt:
     type: entity_reference_label
-    weight: 10
+    weight: 12
     region: right
     label: above
     settings:
@@ -121,7 +129,7 @@ content:
     third_party_settings: {  }
   field_almntqt_alhy:
     type: string
-    weight: 13
+    weight: 15
     region: right
     label: above
     settings:
@@ -136,14 +144,14 @@ content:
     third_party_settings: {  }
   field_als_r:
     type: number_unformatted
-    weight: 15
+    weight: 17
     region: footer
     label: above
     settings: {  }
     third_party_settings: {  }
   field_alshar:
     type: string
-    weight: 14
+    weight: 16
     region: right
     label: above
     settings:
@@ -174,15 +182,26 @@ content:
     third_party_settings: {  }
   field_nw_al_qar:
     type: entity_reference_label
-    weight: 11
+    weight: 13
     region: right
     label: above
     settings:
       link: true
     third_party_settings: {  }
+  field_rqm_almrb_:
+    weight: 8
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: left
   field_rqm_almwbayl:
     type: telephone_link
-    weight: 9
+    weight: 10
     region: left
     label: above
     settings:
@@ -190,14 +209,14 @@ content:
     third_party_settings: {  }
   field_rqm_alqt_t:
     type: number_unformatted
-    weight: 8
+    weight: 9
     region: left
     label: above
     settings: {  }
     third_party_settings: {  }
   field_tags:
     type: entity_reference_label
-    weight: 12
+    weight: 14
     region: right
     label: above
     settings:

@@ -1,0 +1,23 @@
+uuid: dc890bab-40fc-4470-8d2b-094ee50a9849
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rqm_almrb_
+    - node.type._qar_alswdan
+id: node._qar_alswdan.field_rqm_almrb_
+field_name: field_rqm_almrb_
+entity_type: node
+bundle: _qar_alswdan
+label: 'رقم المربع'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float
